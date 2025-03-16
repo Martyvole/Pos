@@ -1,4 +1,3 @@
-```javascript
 const inventoryItems = [
     // Blank first item pro případ potřeby
     { name: '', price: 0, currency: 'CZK', image: '', category: '' },
