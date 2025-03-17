@@ -1,4 +1,8 @@
-    javascript
+/**
+ * Product inventory data for the minibar POS system
+ * Contains lists of products available in each villa
+ */
+
 const inventoryItems = [
     // Blank first item pro případ potřeby
     { name: '', price: 0, currency: 'CZK', image: '', category: '' },
@@ -15,24 +19,4 @@ const inventoryItems = [
     { name: 'Moscow Mule', price: 99, currency: 'CZK', image: 'images/moscow.png', category: 'alcoholic' },
     { name: 'Gin Tonic', price: 99, currency: 'CZK', image: 'images/gin.png', category: 'alcoholic' },
     { name: 'Mojito', price: 99, currency: 'CZK', image: 'images/mojito.png', category: 'alcoholic' },
-    { name: 'Prosecco', price: 390, currency: 'CZK', image: 'images/prosecco.png', category: 'alcoholic' },
-    
-    // 3. Piva
-    { name: 'Budvar', price: 59, currency: 'CZK', image: 'images/budvar.png', category: 'beer' },
-    { name: 'Sud 30 litrů', price: 125, currency: 'EUR', image: 'images/keg.png', category: 'beer' },
-    { name: 'Sud 50 litrů', price: 175, currency: 'EUR', image: 'images/pivo50.png', category: 'beer' },
-    { name: 'Budvar plechovka', price: 59, currency: 'CZK', image: 'images/budvar.png', category: 'beer' },
-    
-    // 4. Relax
-    { name: 'Wellness balíček', price: 0, currency: 'EUR', image: 'images/wellness.png', category: 'relax', customPrice: true },
-    { name: 'Grily', price: 20, currency: 'EUR', image: 'images/grill.png', category: 'relax' },
-    { name: 'Plyny do ohňových stolů', price: 12, currency: 'EUR', image: 'images/Plyn.png', category: 'relax' }
-];
-
-// Vytvoření objektu obsahujícího inventář pro každou villu
-const inventory = {
-    'oh-yeah': [...inventoryItems],
-    'amazing-pool': [...inventoryItems],
-    'little-castle': [...inventoryItems]
-};
-```
+    { name: 'Prosecco', price: 390, currency: 'CZK', image: 'images/
